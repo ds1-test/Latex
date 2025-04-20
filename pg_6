@@ -1,0 +1,30 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+	\section * {Subfigure Demo}
+	\begin{figure}[h]
+		\centering
+		\begin{subfigure}[b]{0.3 \textwidth}
+			\centering
+			\includegraphics[width = \textwidth]{graph1.jpg}    
+			\caption{$y=x$}
+			\label{fig:x equals y}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.3 \textwidth}
+			\centering			
+			\includegraphics[width = \textwidth]{graph2.jpg}    
+			\caption{$y=3\sin x$}
+			\label{fig:3sinx}
+		\end{subfigure}
+		\caption{Two simple graphs arranged side by side}
+		\label{Two graphs}
+	\end{figure}
+\end{document}
