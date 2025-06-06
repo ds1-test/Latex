@@ -1,0 +1,95 @@
+\documentclass[a4paper,12pt]{article} 
+\usepackage{graphicx} 
+\usepackage{tikz} 
+\usepackage{ragged2e} 
+\usepackage[margin=1in]{geometry} 
+\usepackage{setspace} 
+\usepackage{titlesec} 
+\usepackage{times} 
+\usetikzlibrary{calc} 
+
+\begin{document} 
+	
+	% Border  
+	\begin{tikzpicture}[remember picture, overlay] 
+		% Outer border 
+		\draw [line width=3pt] 
+		($(current page.north west) + (1cm,-1cm)$) 
+		rectangle 
+		($(current page.south east) + (-1cm,1cm)$); 
+		% Inner border 
+		\draw [line width=1.2pt] 
+		($(current page.north west) + (1.1cm,-1.1cm)$) 
+		rectangle 
+		($(current page.south east) + (-1.1cm,1.1cm)$); 
+
+		
+		
+	\end{tikzpicture} 
+	
+	\vspace{0.01cm} 
+	\begin{center} 
+		{\large\bfseries JSS MAHAVIDYAPEETHA} \\[0.2cm] 
+		{\LARGE\bfseries JSS ACADEMY OF TECHNICAL EDUCATION} \\[0.2cm] 
+		{\normalsize\bfseries JSS CAMPUS, Dr. Vishnuvardhan Road, Bengaluru
+			560060} \\[0.5cm] 
+		{\large\bfseries DEPARTMENT OF CSE(AIML)} \\[1cm] 
+		
+		\includegraphics[scale=0.5]{jsslogo.jpg} \\[1cm] 
+		
+		{\Large\bfseries {\underline {CERTIFICATE}} \\[0.8cm] 
+	} \end{center} 
+	
+	\noindent 
+	\justifying 
+	{\normalsize 
+		\indent This is to certify that \textbf{\underline{\hspace{3cm}}} of 
+		\textbf{CSE(AIML)}, bearing USN \textbf{\underline{\hspace{3cm}}}, has 
+		successfully completed the course titled \textbf{“Technical Writing using 
+			LaTeX”} in partial fulfillment of the requirement of Fourth Semester Project of 
+		Bachelor of Engineering in CSE(AIML), prescribed by Visvesvaraya 
+		Technological University, Belagavi for the academic year \textbf{2024--2025}. 
+	} 
+	
+	\vspace{2cm} 
+	
+	\noindent 
+	\begin{minipage}[t]{0.3\textwidth} 
+		
+		\rule{5cm}{0.4pt} \\[0.1cm] 
+		\textbf{Geetha Gurudev Goud}\\ 
+		Asst. Professor \\ 
+		Department of \\ 
+		CSE(AIML) \\ 
+		JSSATE, Bengaluru 
+	\end{minipage} 
+	\hfill 
+	\begin{minipage}[t]{0.3\textwidth} 
+		
+		\rule{5cm}{0.4pt} \\[0.1cm] 
+		\textbf{Dr. Anil B C} \\ 
+		Associate Professor \& Head \\ 
+		Department of \\ 
+		CSE(AIML) \\ 
+		JSSATE, Bengaluru 
+	\end{minipage} 
+	
+	\vspace{2cm} 
+	
+	\noindent 
+	\begin{minipage}[t]{0.3\textwidth} 
+		
+		\rule{5cm}{0.4pt} \\[0.1cm] 
+		17 
+		
+		\textbf{Examiner 1} \\ 
+		Date: 
+	\end{minipage} 
+	\hfill 
+	\begin{minipage}[t]{0.3\textwidth} 
+		\rule{5cm}{0.4pt} \\[0.1cm] 
+		\textbf{Examiner 2} \\ 
+		Date: 
+	\end{minipage} 
+	
+	\end{document 
