@@ -1,0 +1,102 @@
+\documentclass[6pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\author{Alice}
+\title{JSSATEB}
+\begin{document}
+	
+	\maketitle
+	\chapter{The Fake News Problem and the Blockchain Solution}
+	
+	\section*{The Fake News Problem and the Blockchain Solution}
+	
+	News helps people stay informed about the world. But in recent times, fake news has increased a lot, especially due to social media. Fake news can cause confusion and harm, and it is often hard to trace its source. That’s why we need a reliable system to stop fake news and promote only trustworthy information.
+	
+	Our project offers a solution using blockchain technology. It creates a secure, transparent news-sharing platform that records all activity on a decentralized ledger. Since it uses blockchain, the data is secure, unchangeable, and protected from cyber threats.
+	
+\section*{The Fake News Problem and the Blockchain Solution}
+
+News helps people stay informed about the world. But in recent times, fake news has increased a lot, especially due to social media. Fake news can cause confusion and harm, and it is often hard to trace its source. That’s why we need a reliable system to stop fake news and promote only trustworthy information.
+
+Our project offers a solution using blockchain technology. It creates a secure, transparent news-sharing platform that records all activity on a decentralized ledger. Since it uses blockchain, the data is secure, unchangeable, and protected from cyber threats.
+	
+	\textbf{The four essential freedoms}
+	\begin{itemize}
+		\item \textbf{Freedom 0} – The freedom to view and access news content from any source on the platform, without restrictions.
+		\item \textbf{Freedom 1} – The freedom to verify the origin and history of any news article. Since all data is stored in a transparent blockchain ledger, users can see where the news came from and how it has been shared or edited.
+		
+		\item \textbf{Freedom 2} – The freedom to share, comment on, and rate news based on its authenticity. This helps others decide if a piece of news is reliable.
+		
+		\item \textbf{Freedom 3} – The freedom to publish your own news content. Users can contribute blogs, articles, or headlines to the network, and this content will be recorded securely and transparently.
+		\end{itemize}
+		
+		These freedoms give users more control over the news they read and share. By using blockchain, our platform ensures that all news content is accountable, traceable, and resistant to tampering. It helps build a trustworthy and responsible news-sharing environment.
+	
+	\chapter{Listing Environment}
+	
+	\begin{small}
+		
+		\section*{Unordered lists}
+		
+		\subsection*{Groceries List}
+		\begin{itemize}
+			\item Eggs
+			\item Milk
+			\item Biscuits
+			\item Rice
+		\end{itemize}
+		
+		\subsection*{Football Teams}
+		\begin{itemize}
+			\item English Premier League
+			\begin{itemize}
+				\item Manchester United
+				\item Liverpool
+			\end{itemize}
+			
+			\item La Liga
+			\begin{itemize}
+				\item Barcelona
+				\item Real Madrid
+			\end{itemize}
+			
+			\item Bundesliga
+			\begin{itemize}
+				\item Bayern Munich
+				\item Borussia Dortmund
+			\end{itemize}
+		\end{itemize}
+		
+		\section*{Ordered lists}
+		
+		\subsection*{ICC WTC Rankings}
+		\begin{enumerate}
+			\item India
+			\item Australia
+			\item New Zealand
+		\end{enumerate}
+		
+		\subsection*{Countries ranked by Market Cap}
+		\begin{enumerate}
+			\item Asia
+			\begin{enumerate}
+				\item China
+				\item Japan
+				\item India
+			\end{enumerate}
+			
+			\item Europe
+			\begin{enumerate}
+				\item United Kingdom
+				\item France
+				\item Germany
+			\end{enumerate}
+		\end{enumerate}
+		
+	\end{small}
+	
+\end{document}
