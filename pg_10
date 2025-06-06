@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usetikzlibrary{trees} % Required for the tree layout
+
+\begin{document}
+	
+	\begin{center}
+		\Large{\textbf{Hierarchy of Linux distributions}}
+	\end{center}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{tikzpicture}[
+			every node/.style = {shape=rectangle, rounded corners, draw, align=center},
+			level 1/.style={sibling distance=45mm, level distance=25mm},
+			level 2/.style={sibling distance=25mm, level distance=25mm}
+			]
+			\path [draw,thick,-]
+			node (root)[red] {GNU/Linux}
+			child {node [cyan] {Debian}
+				child { node [cyan] {Ubuntu} }
+				child { node [cyan] {Linux Mint} }
+			}
+			child {node [magenta] {RedHat}
+				child { node [magenta] {Fedora} }
+				child { node [magenta] {OpenSuse} }
+			}
+			child {node [blue] {Arch}
+				child { node [blue]{Manjaro} }
+				child { node [blue]{EndeavourOS} }
+			};
+		\end{tikzpicture}
+		\caption{GNU/Linux Operating System Family}
+	\end{figure}
+	
+	\pagebreak
+	
+	\begin{center}
+		\Large{\textbf{SUV Cars}}
+	\end{center}
+	
+	\begin{figure}[h]
+		\centering
+		\begin{tikzpicture}[
+			grow=-45,
+			every node/.style = {shape=rectangle, rounded corners, draw, align=center},
+			level 1/.style={sibling distance=45mm, level distance=25mm},
+			level 2/.style={sibling distance=25mm, level distance=25mm}
+			]
+			\path [draw,thick,-]
+			node (root)[red] {SUV}
+			child {node [cyan] {Tata}
+				child { node [cyan] {Nexon} }
+				child { node [cyan] {Punch} }
+			}
+			child {node [magenta] {Volkswagen}
+				child { node [magenta] {Taigun} }
+				child { node [magenta] {Virtus} }
+			}
+			child {node [blue] {Maruti}
+				child { node [blue]{Brezza} }
+				child { node [blue]{Vitara} }
+			};
+		\end{tikzpicture}
+		\caption{Car Brands Hierarchy}
+	\end{figure}
+	
+\end{document}
