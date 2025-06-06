@@ -1,0 +1,106 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{times}
+\usepackage{parskip}
+
+\begin{document}
+	
+	\small % Make the whole document use smaller font
+	
+	\title{A Brief Survey of Research}
+	\author{Author Name}
+	\date{}
+	\maketitle
+	
+	First paragraph discussing several notable works in the field. Research by \citet{smith2020} and \citet{johnson2019} highlights fundamental techniques. Additional studies \citep{brown2018, taylor2021} further developed these ideas. The insights from \citet{davis2017} and \citet{miller2016} emphasize the importance of reproducibility and transparency in experiments.
+	
+	Second paragraph builds upon the foundational theories. According to \citet{anderson2015} and \citet{wilson2022}, machine learning is transforming data analysis. Moreover, \citep{moore2014, clark2013} suggest that interdisciplinary approaches offer valuable perspectives. The ongoing discussions \citep{adams2023} indicate new directions in the field.
+	
+	\section*{References}
+	\begingroup
+	\small
+	\bibliographystyle{plainnat}
+	\bibliography{refs}
+	\endgroup
+	
+\end{document}
+
+
+@article{smith2020,
+	author  = {Smith, John},
+	title   = {Understanding Deep Learning},
+	journal = {AI Journal},
+	year    = {2020}
+}
+
+@article{johnson2019,
+	author  = {Johnson, Emily},
+	title   = {Neural Networks in Practice},
+	journal = {ML Review},
+	year    = {2019}
+}
+
+@article{brown2018,
+	author  = {Brown, Robert},
+	title   = {Data Science Methods},
+	journal = {Data Journal},
+	year    = {2018}
+}
+
+@article{taylor2021,
+	author  = {Taylor, Alice},
+	title   = {Modern AI},
+	journal = {Intelligence Today},
+	year    = {2021}
+}
+
+@article{davis2017,
+	author  = {Davis, Laura},
+	title   = {Experimental Design in AI},
+	journal = {AI Experiments},
+	year    = {2017}
+}
+
+@article{miller2016,
+	author  = {Miller, George},
+	title   = {Transparency in Machine Learning},
+	journal = {Ethics in AI},
+	year    = {2016}
+}
+
+@article{anderson2015,
+	author  = {Anderson, Carl},
+	title   = {Machine Learning Applications},
+	journal = {ML Today},
+	year    = {2015}
+}
+
+@article{wilson2022,
+	author  = {Wilson, Diane},
+	title   = {Future of AI},
+	journal = {Next Gen Tech},
+	year    = {2022}
+}
+
+@article{moore2014,
+	author  = {Moore, Thomas},
+	title   = {Cross-disciplinary AI Research},
+	journal = {Science Review},
+	year    = {2014}
+}
+
+@article{clark2013,
+	author  = {Clark, Angela},
+	title   = {Innovations in Data Analysis},
+	journal = {Innovative Computing},
+	year    = {2013}
+}
+
+@article{adams2023,
+	author  = {Adams, Nancy},
+	title   = {Trends in Machine Learning},
+	journal = {ML Reports},
+	year    = {2023}
+}
