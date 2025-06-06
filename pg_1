@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article} 
+\usepackage[left=1.2in, right=0.8in, top=0.8in,bottom=0.8in]{geometry} 
+\usepackage{fancyhdr} 
+\pagestyle{fancy} 
+\title{About LaTeX} 
+\author{} 
+\fancyhead[L]{LaTeX} 
+\fancyhead[R]{} 
+\fancyfoot[C]{JSS Academy of Tech Education, Bengaluru} 
+\fancyfoot[R]{\thepage} 
+\begin{document} 
+	\maketitle 
+	\section{What is LaTeX?} 
+	LaTeX is a powerful system for creating high-quality typeset documents. Unlike 
+	familiar word processors like Microsoft Word, LaTeX doesn't use a \textit{What-you
+		see-is-what-you-get} (WYSIWYG) approach. Instead, you write your document using 
+	plain text interspersed with special commands that tell LaTeX how to format the final 
+	output. 
+	\section{Core concepts of LaTeX} 
+	LaTeX is the markup language used for the typesetting of the technical 
+	documents. To learn LaTeX, you must have a great idea of MS Word and the way or 
+	
+	method which you use to design your document. It also needs an understanding of 
+	mathematics and related commands. 
+	\section{Key features of LaTeX} 
+	
+	\textbf{Emphasis on Content:} LaTeX encourages you to focus on writing by 
+	handling formatting through commands. This can be particularly beneficial for complex 
+	documents with intricate structures.\\ 
+	\textbf{Typesetting Prowess:} LaTeX excels at handling mathematical \\
+	equations, symbols, and scientific notation. It produces crisp, high-quality output that 
+	adheres to professional publishing standards.\\ 
+	\textbf{Citations and References:} LaTeX makes managing citations and 
+	references a breeze. You can easily insert citations and let LaTeX take care of 
+	generating a formatted bibliography at the end.\\ 
+	\textbf{Customization Power:} LaTeX offers extensive customization options. 
+	You can define document styles, create custom commands, and leverage a vast library 
+	of packages to achieve nearly any desired formatting.\\ 
+	
+	\section{Workflow} 
+	
+	\textbf{Writing the Document:} You write your content in a plain text editor, 
+	adding LaTeX commands to structure your text by specifying things like sections, lists, 
+	and formatting.\\ 
+	\textbf{Compiling the Document:} Once you've written your document, you 
+	run it through a Latex complier.This translates your code and commands into the 
+	final formatted document, typically a PDF file.\\ 
+	\textbf{Editing and Recompiling:} The editing process in Latex in iterative. You 
+	make changes to your plain text file, recompile, and preview the updated document 
+	until you achieve the desired output.\\ 
+\end{document}
